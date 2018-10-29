@@ -1,0 +1,32 @@
+{
+  "name": "oneline",
+  "version": "1.0.0",
+  "description": "Write nice template literals with newlines, but format as a single-line string",
+  "main": "oneline.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node" : ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rexxars/oneline.git"
+  },
+  "files": [
+    "oneline.js",
+    "test.js"
+  ],
+  "keywords": [
+    "template-literal",
+    "tagged",
+    "string",
+    "multiline"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/oneline/issues"
+  },
+  "homepage": "https://github.com/rexxars/oneline#readme"
+}
