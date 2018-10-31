@@ -28,6 +28,10 @@ console.log(message)
 // It's a fine day to write a long, verbose string. It could contain all sorts of expressions, let's for instance inject a URL, say to the NPM docs: https://docs.npmjs.com/. In the end, this will all result in a single line of text.
 ```
 
+## Thanks to...
+
+Thanks [Hal Henke](https://github.com/halhenke) for donating the package name! <3
+
 ## License
 
 MIT © [Espen Hovlandsdal](https://espen.codes/)
