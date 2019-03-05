@@ -3,4 +3,3 @@ module.exports = (strings, ...keys) =>
     .reduce((result, part, i) => result + part + (keys[i] || '') , '')
     .replace(/(?:\n(?:\s*))+/g, ' ')
     .trim()
-

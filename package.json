@@ -2,7 +2,8 @@
   "name": "oneline",
   "version": "1.0.0",
   "description": "Write nice template literals with newlines, but format as a single-line string",
-  "main": "oneline.js",
+  "main": "./oneline.js",
+  "types": "./oneline.d.ts",
   "scripts": {
     "test": "node test.js"
   },
@@ -15,6 +16,7 @@
   },
   "files": [
     "oneline.js",
+    "oneline.d.ts",
     "test.js"
   ],
   "keywords": [
