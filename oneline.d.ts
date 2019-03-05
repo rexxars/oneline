@@ -1,9 +1,3 @@
-type JSTag = (literals: TemplateStringsArray, ...placeholders: any[]) => string;
+declare function OneLine(literals: TemplateStringsArray, ...placeholders: string[]): string
 
-interface TemplateTag {
-  (str: string): string;
-  (tag: JSTag): TemplateTag;
-  (literals: TemplateStringsArray, ...placeholders: any[]): string;
-}
-
-export = TemplateTag
+export = OneLine
