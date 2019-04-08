@@ -1,3 +1,3 @@
-declare function OneLine(literals: TemplateStringsArray, ...placeholders: string[]): string
+declare function OneLine(literals: TemplateStringsArray, ...placeholders: any[]): string
 
 export = OneLine
