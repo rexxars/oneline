@@ -3,7 +3,7 @@
 Write nice template literals with newlines, but format as a single-line string.
 Trims leading/trailing whitespace and replaces all newlines and subsequent whitespace with a single space.
 
-[![npm version](https://img.shields.io/npm/v/oneline.svg?style=flat-square)](http://browsenpm.org/package/oneline)[![Build Status](https://img.shields.io/travis/rexxars/oneline/master.svg?style=flat-square)](https://travis-ci.org/rexxars/oneline)
+[![npm version](https://img.shields.io/npm/v/oneline.svg?style=flat-square)](https://www.npmjs.com/package/oneline)[![npm bundle size](https://img.shields.io/bundlephobia/minzip/oneline?style=flat-square)](https://bundlephobia.com/result?p=oneline)[![npm weekly downloads](https://img.shields.io/npm/dw/oneline.svg?style=flat-square)](https://www.npmjs.com/package/oneline)
 
 ## Installing
 
