@@ -31,5 +31,14 @@
   "bugs": {
     "url": "https://github.com/rexxars/oneline/issues"
   },
-  "homepage": "https://github.com/rexxars/oneline#readme"
+  "homepage": "https://github.com/rexxars/oneline#readme",
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true
+  }
 }
