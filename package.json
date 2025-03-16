@@ -16,7 +16,7 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "node oneline.test.js"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -47,6 +47,7 @@
   "homepage": "https://github.com/rexxars/oneline#readme",
   "devDependencies": {
     "@sanity/semantic-release-preset": "^5.0.0",
+    "@types/node": "^18.19.80",
     "prettier": "^3.5.3",
     "semantic-release": "^24.0.0"
   },
