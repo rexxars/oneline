@@ -1,6 +1,6 @@
 {
   "name": "oneline",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Write nice template literals with newlines, but format as a single-line string",
   "sideEffects": false,
   "type": "module",
