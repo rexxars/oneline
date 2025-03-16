@@ -14,7 +14,7 @@ npm install --save oneline
 ## Basic usage
 
 ```js
-const oneline = require('oneline')
+import {oneline} from 'oneline'
 
 const url = 'https://docs.npmjs.com/'
 const message = oneline`

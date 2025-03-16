@@ -1,5 +1,5 @@
-const assert = require('assert')
-const oneline = require('./oneline')
+import assert from 'node:assert'
+import {oneline} from './oneline.js'
 
 const me = 'Espen'
 const age = 32

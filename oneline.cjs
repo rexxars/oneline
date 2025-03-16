@@ -1,4 +1,4 @@
-export function oneline(strings, ...keys) {
+exports.oneline = (strings, ...keys) => {
   return strings
     .reduce((result, part, i) => {
       const val = i > keys.length - 1 ? '' : keys[i]
