@@ -33,7 +33,9 @@
   },
   "homepage": "https://github.com/rexxars/oneline#readme",
   "devDependencies": {
-    "prettier": "^3.5.3"
+    "@sanity/semantic-release-preset": "^5.0.0",
+    "prettier": "^3.5.3",
+    "semantic-release": "^24.0.0"
   },
   "prettier": {
     "bracketSpacing": false,
