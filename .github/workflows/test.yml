@@ -2,17 +2,6 @@ name: Test
 on:
   push:
   workflow_dispatch:
-    inputs:
-      bun:
-        description: 'Test on bun'
-        required: true
-        default: true
-        type: boolean
-      deno:
-        description: 'Test on deno'
-        required: true
-        default: true
-        type: boolean
 
 jobs:
   testNode:
@@ -48,7 +37,6 @@ jobs:
 
   testDeno:
     name: 'Test: Deno'
-    if: always() && github.event.inputs.deno == 'true'
     timeout-minutes: 15
     runs-on: ubuntu-latest
     steps:
@@ -61,10 +49,8 @@ jobs:
 
   testBun:
     name: 'Test: Bun'
-    if: always() && github.event.inputs.bun == 'true'
     timeout-minutes: 15
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v1
