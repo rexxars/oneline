@@ -3,6 +3,7 @@ const oneline = require('./oneline')
 
 const me = 'Espen'
 const age = 32
+const zero = 0
 
 assert.equal(oneline``, '')
 assert.equal(oneline`This should be unmodified`, 'This should be unmodified')
@@ -31,4 +32,9 @@ assert.equal(
   but can still be formatted nicely in a terminal.
 `,
   'This is a few paragraphs of text. It should be one line after tagging it. Which makes this readable (source-wise), but can still be formatted nicely in a terminal.',
+)
+
+assert.equal(
+  oneline`As for nullables, like ${null} (obviously), ${zero}, ${undefined} or ${false} it should serialize to… empty for all but zero.`,
+  'As for nullables, like  (obviously), 0,  or  it should serialize to… empty for all but zero.',
 )
